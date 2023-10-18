@@ -1,0 +1,85 @@
+
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+  .content {
+    position: relative;
+    text-emphasis-position:initial;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+
+
+  h1{
+    text-align: center;
+}
+
+  
+  #header {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+#header input{
+    height:50px;
+    width:300px;
+    border-radius: 20px;
+}
+#header button
+{
+    background-color: black;
+    color: white;
+    height:50px;
+    width:100px;
+    border-radius: 20px;
+}
+
+.pokeValue
+{
+    height:300px;
+    width:200px;
+
+}
+.poke img
+{
+    height:100px;
+    width:100px;
+    
+}
+#list
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap:20px;
+    align-items: center;
+    margin-top: 100px;
+}
+#foot{
+    text-align: center;
+    background-color: black;
+    text-decoration-line: underline;
+    color: #f1f1f1;
+    height:auto;
+    width: auto;
+    content: icon;
+
+}
+
+
